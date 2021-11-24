@@ -1,8 +1,7 @@
 on:
-  pull_request:
-    branches: main
-  schedule:
-    - cron: "0 4 * * *"
+  push:
+    branches:
+      - debug_ci
 
 name: Check/Codecov/Update Table
 
