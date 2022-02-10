@@ -105,10 +105,12 @@ Suggests:
     survivalsvm,
     tensorflow (>= 2.0.0),
     testthat,
+    WCLR,
     usethis
 Remotes:
     binderh/CoxBoost
-Config/testthat/edition: 3
+    Config/testthat,
+    WCLR/edition: 3
 Encoding: UTF-8
 NeedsCompilation: no
 Roxygen: list(markdown = TRUE, r6 = TRUE)
